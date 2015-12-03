@@ -33,8 +33,7 @@ Instantiate the Deployment-Manager which orchestrates everything:
 
 ```
 var deploymentManager = new azureDeploy.AzureWebSiteDeploymentManager(
-            'Azure WebSite Name', 'Azure Deployment UserName', 'Azure Deployment Password',
-            'Git User Name (Just Displayname)', 'Git User Address (Just Displayaddress)');
+            'Azure WebSite Name', 'Azure Deployment UserName', 'Azure Deployment Password');
 ```
 
 The deployment manager can be used to perform a deployment from a specific source directory. The deploy method returns
@@ -58,9 +57,7 @@ grunt.registerMultiTask('azureDeploy', 'Deploys the current build to an Azure We
         var deploymentManager = new azureDeploy.AzureWebSiteDeploymentManager(
             this.data.azureWebSiteName,
             this.data.azureDeploymentCredentialUserName,
-            this.data.azureDeploymentCredentialPassword,
-            this.data.gitUserAccount,
-            this.data.gitUserAddress
+            this.data.azureDeploymentCredentialPassword
         );
 
         grunt.log.writeln('Starting deployment...');
