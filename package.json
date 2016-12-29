@@ -6,6 +6,7 @@
   "author": "dei79",
   "license": "MIT",
   "dependencies": {
+    "azure-storage": "^1.4.0",
     "filewalker": "^0.1.2",
     "git-exec": "^0.2.1",
     "ncp": "^2.0.0",
