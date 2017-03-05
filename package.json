@@ -8,7 +8,6 @@
   "dependencies": {
     "azure-storage": "^1.4.0",
     "filewalker": "^0.1.2",
-    "git-exec": "^0.2.1",
     "ncp": "^2.0.0",
     "node-uuid": "^1.4.7",
     "promise": "^7.0.4",
