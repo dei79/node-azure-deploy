@@ -1,6 +1,6 @@
 {
   "name": "azure-deploy",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A module the deploy azure websites",
   "main": "lib/azure-deploy.js",
   "author": "dei79",
