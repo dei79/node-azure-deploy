@@ -8,7 +8,7 @@ var DeploymentManager= require('../lib/azure-deploy.js').AzureGitDeploymentManag
 
 // start the deployment (we are deploying the while project folder in the storage)
 var deploymentManager = new DeploymentManager(credentials.url, credentials.user, credentials.secret);
-deploymentManager.deploy('..', ['.git', '.idea', 'node_modules']).then(function() {
+deploymentManager.deploy('..', ['.git', '.idea', 'node_modules', '.credentials.json']).then(function() {
     console.log("DONE");
     process.exit(0);
 }).catch(function(error) {
