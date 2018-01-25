@@ -6,11 +6,11 @@
   "author": "dei79",
   "license": "MIT",
   "dependencies": {
-    "azure-storage": "^1.4.0",
+    "azure-storage": "^2.7.0",
     "filewalker": "^0.1.2",
     "ncp": "^2.0.0",
     "node-uuid": "^1.4.7",
-    "promise": "^7.0.4",
+    "promise": "^8.0.1",
     "rimraf": "^2.2.8",
     "temp": "^0.8.1"
   },
